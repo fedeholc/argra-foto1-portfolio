@@ -1,0 +1,38 @@
+input,
+textarea {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+  display: lock;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+}
+
+#form-mensaje {
+  max-width: 380px;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+#form-button {
+  background-color: transparent;
+  border: 2px solid gray;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid;
+  width: fit-content;
+  padding: 2rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+}

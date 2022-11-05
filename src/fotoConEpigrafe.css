@@ -1,0 +1,27 @@
+.foto-container {
+  display: flex;
+  justify-content: center;
+}
+
+.foto-portfolio {
+  width: auto;
+  height: auto;
+  max-width: 90vw;
+  max-height: 80vh;
+  border: 1px solid black;
+}
+
+.foto-figcaption {
+  color: rgb(65, 65, 65);
+  text-align: right;
+  margin-left: 30%;
+  display: flex;
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.foto-epigrafe {
+  flex-grow: 1;
+  width: 0;
+}

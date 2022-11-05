@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import Footer from "./footer";
 import NavBar from "./navbar";
+import "./contactForm.css";
 
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/014b69d0-5c97-11ed-b82c-5d75eaa7ccff"; // TODO - fill on the later step
 
+const M1 = "holc@"
+const M = "federico."+ M1 +"gmail.com";
+const MT = "mailto:"+M;
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = () => {
@@ -26,25 +30,47 @@ const ContactForm = () => {
   return (
     <>
       <NavBar />
-      <form
-        action={FORM_ENDPOINT}
-        onSubmit={handleSubmit}
-        method="POST"
-        target="_blank"
-      >
-        <div>
-          <input type="text" placeholder="Your name" name="name" required />
-        </div>
-        <div>
-          <input type="email" placeholder="Email" name="email" required />
-        </div>
-        <div>
-          <textarea placeholder="Your message" name="message" required />
-        </div>
-        <div>
-          <button type="submit"> Send a message </button>
-        </div>
-      </form>
+      <div className="div-flex-centrado">
+        <div id="wrapper">
+          <div className="div-flex-centrado">
+            <div id="form-mensaje">
+              Hola,
+              <br /> mandame un mail a{" "}
+              <a href={MT}>{M}</a>
+              .<br /> O escribime acá:
+            </div>
+          </div>
+            <form
+              id="formulario-contacto"
+              action={FORM_ENDPOINT}
+              onSubmit={handleSubmit}
+              method="POST"
+              target="_blank"
+            >
+              <div>
+                <label>
+                  Nombre:
+                  <input type="text" name="name" required />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Email:
+                  <input type="email" name="email" required />
+                </label>
+              </div>
+              <div className="div-flex-centrado">
+                <label>
+                  Mensaje: <textarea rows={5} cols={30} name="message" required />
+                </label>
+              </div>
+              <div className="div-flex-centrado">
+                <button id="form-button" type="submit"> Enviar </button>
+              </div>
+            </form>
+          </div>
+      </div>
+      
       <Footer />
     </>
   );

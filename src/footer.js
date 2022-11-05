@@ -1,4 +1,4 @@
-import ContactForm from "./contactForm";
+import "./footer.css";
 
 const Footer = () => {
   return (
