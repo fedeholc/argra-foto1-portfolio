@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .foto-container {
   display: flex;
   justify-content: center;
