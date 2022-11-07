@@ -17,7 +17,7 @@ const root = createRoot(container);
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "argra-foto1-portfolio/",
     element: <App />,
     errorElement: <ErrorPage />,
     /* loader: homeLoader, */

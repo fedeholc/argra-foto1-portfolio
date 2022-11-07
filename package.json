@@ -1,8 +1,11 @@
 {
   "name": "argra-foto1-portfolio",
   "version": "0.1.0",
+  "homepage": "http://fedeholc.github.io/argra-foto1-portfolio/",
   "private": true,
-  "homepage": "http://fedeholc.github.io/argra-foto1-portfolio",
+  "sponsor": {
+    "url": "https:"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

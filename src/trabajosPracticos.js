@@ -6,11 +6,11 @@ const TrabajosPracticos = () => {
   return (
     <>
       <NavBar />
-      <div class="div-flex-derecha">
-        <h1 class="seccion-titulo">Trabajos Prácticos</h1>
+      <div className="div-flex-izquierda">
+        <h1 className="seccion-titulo">Trabajos Prácticos</h1>
       </div>
-      <div class="div-flex-centrado">
-        <h2 class="seccion-subtitulo">24 de Marzo</h2>
+      <div className="div-flex-centrado">
+        <h2 className="seccion-subtitulo">24 de Marzo</h2>
       </div>
 
       <FotoConEpigrafe
@@ -18,8 +18,8 @@ const TrabajosPracticos = () => {
         epigrafe="hola"
       />
 
-      <div class="div-flex-centrado">
-        <h2 class="seccion-subtitulo">Deportes</h2>
+      <div className="div-flex-centrado">
+        <h2 className="seccion-subtitulo">Deportes</h2>
       </div>
 
       <FotoConEpigrafe
