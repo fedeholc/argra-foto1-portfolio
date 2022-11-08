@@ -21,18 +21,20 @@ textarea {
   border: 2px solid gray;
   font-weight: bold;
   border-radius: 0.5rem;
-  font-size: 0.95rem;
+  font-size: 16px;
   padding: 0.5rem;
   cursor: pointer;
 }
 
 #wrapper {
   margin-top: 2rem;
-  display: flex;
+    font-size: 16px;
+  text-align: left;
+  display: block;
   flex-direction: column;
   justify-content: center;
   border: 1px solid;
-  width: fit-content;
+  height: fit-content;
   padding: 2rem;
   border: 1px solid lightgray;
   border-radius: 0.5rem;
@@ -47,7 +49,19 @@ textarea {
           background-image: none;
      
         height: 100vh;
-} 
+}
+.wp {
+  flex: 1;
+}
+
+.bd {
+  text-align: center;
+  display: flex;
+   
+    flex-direction: column;
+  
+    min-height: 100vh;
+}
 
 #prefooter {
   margin-bottom: 2rem;

@@ -30,7 +30,7 @@ const Home = () => {
       <div id="contport2">
         <div className="contport">
           <div className="tituloportfolio">FEDERICO HOLC</div>
-          <div className="tituloportfolio2">FOTOGRAFÍAS</div>
+          <div className="tituloportfolio2">FOTOGRAFÍA</div>
         </div>
       </div>
 

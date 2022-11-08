@@ -29,9 +29,9 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="bg">
+      <div className="bg bd">
         <NavBar />
-        <div className="div-flex-centrado ">
+        <div className="div-flex-centrado wp">
           <div id="wrapper">
             <div className="div-flex-centrado">
               <div id="form-mensaje">
