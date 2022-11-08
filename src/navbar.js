@@ -21,6 +21,7 @@ const NavBar = () => {
           <Link to="../Contacto">Contacto</Link>
         </li>
       </ul>
+      
     </div>
   );
 };
