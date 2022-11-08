@@ -1,5 +1,7 @@
 import "./App.css";
 import NavBar from "./navbar";
+import { useEffect } from "react";
+
 
 const FooterHome = () => {
   return (
@@ -55,9 +57,22 @@ const Home = () => {
 };
 
 function App() {
+  
+ /*  useEffect(() => {
+    const interval = setInterval(() => {
+      console.log("This will run every second!");
+
+      document.body.style.backgroundImage =
+        'url("https://images4.imagebam.com/e3/74/77/MEGJEE8_o.jpg")'; 
+  
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []); */
+
   return (
     <div className="appbg">
      {/*  <NavBar /> */}
+
       <Home />
       <FooterHome />
     </div>
