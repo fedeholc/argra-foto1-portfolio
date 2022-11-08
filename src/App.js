@@ -1,5 +1,4 @@
 import "./App.css";
-import Footer from "./footer";
 import NavBar from "./navbar";
 
 const FooterHome = () => {
@@ -11,12 +10,12 @@ const FooterHome = () => {
         src="https://images4.imagebam.com/d5/6a/56/MEGJFU6_o.png"
       ></img>
       <ul className="footer2">
-        <li>
+        <li>Fotoperiodismo I - Martín Acosta</li>
+
+        <li>Comisión: lunes de 19-22hs</li>
+        <li className="pt2">
           <strong>2022 - Federico Holc</strong>
         </li>
-        <li>Portfolio para Fotoperiodismo I - Prof. Martín Acosta</li>
-        <li>Comisión: lunes de 19-22hs - aRGra Escuela</li>
-        <li></li>
       </ul>
     </div>
   );
@@ -25,7 +24,15 @@ const FooterHome = () => {
 const Home = () => {
   return (
     <>
-     
+      <div id="contport2">
+        <div className="contport">
+        
+            <div className="tituloportfolio">FEDERICO HOLC</div>
+            <div className="tituloportfolio2">FOTOGRAFÍAS</div>
+        
+        </div>
+      </div>
+
       <div className="div-flex-centrado tp">
         <h2 className="t" id="t1">
           Trabajos Prácticos
@@ -49,7 +56,7 @@ const Home = () => {
 
 function App() {
   return (
-    <div>
+    <div className="appbg">
      {/*  <NavBar /> */}
       <Home />
       <FooterHome />

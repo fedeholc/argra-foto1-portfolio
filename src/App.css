@@ -1,21 +1,47 @@
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+
+
+}
+
+
 html,
 body {
   margin: 0;
   height: 100%;
-  box-sizing: border-box;
-  width: 100%;
+    width: 100%;
+  min-width: 300px;
+ 
+  background-color: black;
+ 
 }
 
 body {
   background-image: url("https://images4.imagebam.com/43/05/00/MEGJFLN_o.jpg");
   background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-} 
- 
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 
 .stretch {
   min-width: 100%;
@@ -26,32 +52,40 @@ body {
 
 .footer2 {
   text-align: center;
- 
-  
+
+
   gap: 5px;
   list-style-type: none;
-  color: white ;
-   
-  padding-top: 1rem;
+  color: white;
+
+  padding-top: 1.5rem;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin-top: -0.5rem;
+
 }
- 
+
+.pt2 {
+  margin-top: 0.5rem;
+}
+
 #footer-wrapper2 {
- 
+
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   width: 100%;
   margin-top: 2rem;
+  min-width: 300px;
   position: fixed;
   left: 0%;
   bottom: 0px;
-  background: rgba(1,1,1, 50%);
+  background: rgba(1, 1, 1, 50%);
   display: flex;
-   justify-content: center;
-   align-items:center;
-    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 
@@ -65,42 +99,101 @@ body {
   margin-bottom: -5px;
 }
 
+.contport { 
+
+align-self: center;
+  
+
+}
+
+#contport2 {
+  
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.tituloportfolio {
+  color: rgb(223, 223, 223);
+  text-align: right;
+  font-size: 5rem;
+  
+  font-family: 'Bebas Neue', cursive;
+  
+margin-top: 2rem;
  
-.t   {
+}
+
+.tituloportfolio2 {
+  margin-top: -2rem;
+  color: rgb(124, 124, 124);
+text-align: right;
+
+    font-size: 5rem;
+text-align: right;
+  font-family: 'Bebas Neue', cursive;
+  
+
+ 
+}
+
+.div-flx-j {
+  text-align: justify;
+  font-size: 4.3vw;
+}
+
+.tp {min-height: 800px;}
+
+
+
+.t {
   position: absolute;
-    
-    
-    color:white;
-    font-size: 5vh;
-    border-bottom: 2px solid white;
-    margin: 1rem;
-   
-    background-color: rgba(1,1,1, 30%);
+ 
+  color: rgb(230,230,230);
+  font-size: 4.5vh;
+  border-bottom: 2px solid gray;
+  margin: 0rem;
+
+  background-color: rgba(1, 1, 1, 30%);
 }
+.t:hover {
+  color: white;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+
 #t1 {
-  top: 10vh;
- 
+  top: 35vh;
+
 }
+
 #t2 {
-  top: 25vh;
- 
+  top: 45vh;
+
 }
+
 #t3 {
-  top: 40vh;
-}
-#t4 {
   top: 55vh;
 }
+
+#t4 {
+  top: 65vh;
+}
+
 #t5 {
-  top: 70vh;
+  top: 75vh;
 }
 
 .div-flex-centrado {
   display: flex;
   justify-content: center;
+  
 }
 
 .div-flex-derecha {
+  margin: 0px;
+  padding: 0px;
   display: flex;
   justify-content: flex-end;
 }
@@ -120,8 +213,7 @@ body {
 .seccion-titulo {
   text-align: center;
   color: rgb(241, 241, 241);
-  width: fit-content;
-  background-color: black;
+   background-color: black;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0.3rem;

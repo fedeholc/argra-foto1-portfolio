@@ -1,3 +1,4 @@
+
 input,
 textarea {
   margin-top: 0.5rem;
@@ -35,4 +36,13 @@ textarea {
   padding: 2rem;
   border: 1px solid lightgray;
   border-radius: 0.5rem;
+    
+
+   
 }
+/* 
+.bg {
+        background-color: white;
+          background-image: none;
+          margin-top: -1rem; 
+} */
