@@ -216,7 +216,7 @@ body {
 .div-flex-centrado {
   display: flex;
   justify-content: center;
-
+background-color: white;
 }
 
 .div-flex-derecha {

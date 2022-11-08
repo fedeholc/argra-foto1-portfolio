@@ -2,7 +2,7 @@ import NavBar from "./navbar";
 import Footer from "./footer";
 import FotoConEpigrafe from "./fotoConEpigrafe";
 import "./trabajosPracticos.css";
-
+import "./contactForm.css";
 
 const TrabajosPracticos = () => {
   return (
