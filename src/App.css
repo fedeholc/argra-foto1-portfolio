@@ -53,7 +53,7 @@ body {
   width: 100%;
 /*   min-width: 250px; */
 
-  background-color: black;
+  background-color: transparent;
 
 }
 
@@ -71,6 +71,7 @@ body {
   width: auto;
   height: auto;
 }
+
 
 .footer2 {
   text-align: center;
@@ -180,7 +181,11 @@ body {
   background-color: rgba(1, 1, 1, 30%);
 }
 
-.t:hover {
+.t a {
+  color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+.t a:hover {
   color: white;
   cursor: pointer;
   border-bottom: 2px solid white;

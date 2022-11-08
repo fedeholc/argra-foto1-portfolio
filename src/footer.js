@@ -2,7 +2,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div id="footer-wrapper">
+    /*     <div id="footer-wrapper">
       <ul className="footer">
         <li>
           <strong>2022 - Federico Holc</strong>
@@ -15,6 +15,22 @@ const Footer = () => {
             alt="logo argra"
             src="https://i.postimg.cc/XY5HgTKc/logoargra.jpg"
           ></img>
+        </li>
+      </ul>
+    </div> */
+    <div id="footer-wrapper">
+      <img
+        height="80px"
+        alt="logo argra"
+        src="https://i.postimg.cc/XY5HgTKc/logoargra.jpg"
+      ></img>
+
+      <ul className="footer">
+        <li>Fotoperiodismo I - Martín Acosta</li>
+
+        <li>Comisión: lunes de 19-22hs</li>
+        <li className="pt2">
+          <strong>2022 - Federico Holc</strong>
         </li>
       </ul>
     </div>

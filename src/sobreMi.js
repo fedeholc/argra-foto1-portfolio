@@ -4,10 +4,11 @@ import Footer from "./footer";
 const SobreMi = () => {
   return (
     <>
-      <NavBar />
-      <h2>Sobre mi</h2>
-     
-      <Footer />
+      <div class="bg">
+        <NavBar />
+        <h2>Sobre mi - en construcción</h2>
+        <Footer />
+      </div>
     </>
   );
 };

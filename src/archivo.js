@@ -7,16 +7,11 @@ const Archivo = () => {
  
   return (
     <>
-      <NavBar />
-
-      <h2>Archivo</h2>
-
-      <FotoConEpigrafe
-        src="https://images4.imagebam.com/56/59/ed/MEGCXE8_o.jpg"
-        epigrafe="hola"
-      />
-
-      <Footer />
+      <div class="bg">
+        <NavBar />
+        <h2>Archivo - en construcción</h2>
+        <Footer />
+      </div>
     </>
   );
 };

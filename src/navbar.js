@@ -6,6 +6,9 @@ const NavBar = () => {
     <div className="navbarwrapper">
       <ul className="navbar">
         <li>
+          <Link to="../argra-foto1-portfolio">Inicio</Link>
+        </li>
+        <li>
           <Link to="../Trabajos">Trabajos Prácticos</Link>
         </li>
         <li>
@@ -21,7 +24,6 @@ const NavBar = () => {
           <Link to="../Contacto">Contacto</Link>
         </li>
       </ul>
-      
     </div>
   );
 };

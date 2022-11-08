@@ -5,6 +5,7 @@
 .foto-container {
   display: flex;
   justify-content: center;
+  background-color: transparent;
 }
 
 .foto-portfolio {
@@ -13,6 +14,7 @@
   max-width: 90vw;
   max-height: 80vh;
   border: 1px solid black;
+
 }
 
 .foto-figcaption {
@@ -23,9 +25,11 @@
   font-family: monospace;
   font-size: 0.9rem;
   line-height: 1.2rem;
+
 }
 
 .foto-epigrafe {
   flex-grow: 1;
   width: 0;
+
 }

@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./navbar";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 const FooterHome = () => {
@@ -28,28 +29,26 @@ const Home = () => {
     <>
       <div id="contport2">
         <div className="contport">
-        
-            <div className="tituloportfolio">FEDERICO HOLC</div>
-            <div className="tituloportfolio2">FOTOGRAFÍAS</div>
-        
+          <div className="tituloportfolio">FEDERICO HOLC</div>
+          <div className="tituloportfolio2">FOTOGRAFÍAS</div>
         </div>
       </div>
 
       <div className="div-flex-centrado tp">
         <h2 className="t" id="t1">
-          Trabajos Prácticos
+          <Link to="../Trabajos">Trabajos Prácticos</Link>
         </h2>
         <h2 className="t" id="t2">
-          Fotorreportaje
+          <Link to="../Fotorreportaje">Fotorreportaje</Link>
         </h2>
         <h2 className="t" id="t3">
-          Archivo
+          <Link to="../Archivo">Archivo</Link>
         </h2>
         <h2 className="t" id="t4">
-          Sobre Mi
+          <Link to="../SobreMi">Sobre Mi</Link>
         </h2>
         <h2 className="t" id="t5">
-          Contacto
+          <Link to="../Contacto">Contacto</Link>
         </h2>
       </div>
     </>

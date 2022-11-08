@@ -4,26 +4,11 @@ import Footer from "./footer";
 const Fotorreportaje = () => {
   return (
     <>
-      <NavBar />
-      <h2>Fotorreportaje</h2>
-      <div className="imagen-container">
-        <img
-          className="imagen-portfolio"
-       
-          alt="poner epigrafe"
-          src="https://images4.imagebam.com/56/59/ed/MEGCXE8_o.jpg"
-        />
+      <div class="bg">
+        <NavBar />
+        <h2>Fotorreportaje - en construcción</h2>
+        <Footer />
       </div>
-      <hr></hr>
-      <div className="imagen-container">
-        <img
-          className="imagen-portfolio"
-  
-          alt="poner epigrafe"
-          src="https://images4.imagebam.com/56/59/ed/MEGCXE8_o.jpg"
-        />
-      </div>
-      <Footer />
     </>
   );
 };
