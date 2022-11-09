@@ -9,7 +9,7 @@ const NavBar = () => {
           <Link to="../argra-foto1-portfolio">Inicio</Link>
         </li>
         <li>
-          <Link to="../Trabajos">Trabajos Prácticos</Link>
+          <Link to="../Trabajos">Trabajos prácticos</Link>
         </li>
         <li>
           <Link to="../Fotorreportaje">Fotorreportaje</Link>
@@ -18,7 +18,7 @@ const NavBar = () => {
           <Link to="../Archivo">Archivo</Link>
         </li>
         <li>
-          <Link to="../SobreMi">Sobre Mi</Link>
+          <Link to="../SobreMi">Sobre mi</Link>
         </li>
         <li>
           <Link to="../Contacto">Contacto</Link>
