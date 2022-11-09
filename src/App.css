@@ -240,8 +240,8 @@ background-color: white;
 
 .seccion-titulo {
   text-align: center;
-  color: rgb(241, 241, 241);
-  background-color: black;
+  color: black;
+  background-color: rgba(235, 235, 235, 0.753);
   margin-top: 0;
   margin-bottom: 0;
   padding: 0.3rem;

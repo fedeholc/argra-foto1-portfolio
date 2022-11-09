@@ -36,7 +36,7 @@ const Home = () => {
 
       <div className="div-flex-centrado tp">
         <h2 className="t" id="t1">
-          <Link to="../Trabajos">Trabajos Prácticos</Link>
+          <Link to="../Trabajos">Trabajos prácticos</Link>
         </h2>
         <h2 className="t" id="t2">
           <Link to="../Fotorreportaje">Fotorreportaje</Link>
@@ -45,7 +45,7 @@ const Home = () => {
           <Link to="../Archivo">Archivo</Link>
         </h2>
         <h2 className="t" id="t4">
-          <Link to="../SobreMi">Sobre Mi</Link>
+          <Link to="../SobreMi">Sobre mi</Link>
         </h2>
         <h2 className="t" id="t5">
           <Link to="../Contacto">Contacto</Link>
