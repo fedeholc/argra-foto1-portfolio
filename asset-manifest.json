@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/argra-foto1-portfolio/static/css/main.39e54519.css",
-    "main.js": "/argra-foto1-portfolio/static/js/main.655cc7f7.js",
+    "main.js": "/argra-foto1-portfolio/static/js/main.5489bb71.js",
     "index.html": "/argra-foto1-portfolio/index.html",
     "main.39e54519.css.map": "/argra-foto1-portfolio/static/css/main.39e54519.css.map",
-    "main.655cc7f7.js.map": "/argra-foto1-portfolio/static/js/main.655cc7f7.js.map"
+    "main.5489bb71.js.map": "/argra-foto1-portfolio/static/js/main.5489bb71.js.map"
   },
   "entrypoints": [
     "static/css/main.39e54519.css",
-    "static/js/main.655cc7f7.js"
+    "static/js/main.5489bb71.js"
   ]
 }
