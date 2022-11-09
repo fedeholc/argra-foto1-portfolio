@@ -39,7 +39,7 @@ const TrabajosPracticos = () => {
     {
       url: "https://i.postimg.cc/h40XNzWy/FH-02172-v4.webp",
       epigrafe:
-        'Un grupo de integrantes del Movimiento Teresa Rodríguez 12 de abril (MTR) participan de la Marcha Federal de la Unidad Piquetera, bajo la consigna "Por trabajo y por salario, contra el hambre y la pobreza", en la Plaza de Mayo, CABA, Argentina, el 12 de mayo de 2022. FOTO / Federico Holc',
+        'Un grupo de integrantes del movimiento Barrios de Pie participan de la Marcha Federal de la Unidad Piquetera, bajo la consigna "Por trabajo y por salario, contra el hambre y la pobreza", en la Plaza de Mayo, CABA, Argentina, el 12 de mayo de 2022. FOTO / Federico Holc',
       id: 5,
     },
     {
