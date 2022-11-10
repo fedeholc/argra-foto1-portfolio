@@ -5,11 +5,8 @@ import { Link } from "react-router-dom";
 const FooterHome = () => {
   return (
     <div id="home-footer-wrapper">
-      <img
-        height="60px"
-        alt="logo argra"
-        src="https://images4.imagebam.com/d5/6a/56/MEGJFU6_o.png"
-      ></img>
+      <img height="60px" alt="logo argra" 
+      src={require("./imagenes/logoargra1.png")}></img>
       <ul id="home-footer-text">
         <li>Fotoperiodismo I - Martín Acosta</li>
 

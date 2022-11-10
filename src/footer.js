@@ -22,7 +22,7 @@ const Footer = () => {
       <img
         height="80px"
         alt="logo argra"
-        src="https://i.postimg.cc/XY5HgTKc/logoargra.jpg"
+        src={require("./imagenes/logoargra2.jpg")}
       ></img>
 
       <ul className="footer">
