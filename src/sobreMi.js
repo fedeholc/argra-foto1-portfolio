@@ -12,7 +12,7 @@ const SobreMi = () => {
           <div className="div-flex-izquierda">
             <h1 className="seccion-titulo">Sobre mi</h1>
           </div>
-          <div id="hola">Hola, soy fede =)</div>
+          <div id="hola">Hola =)</div>
           <img
             border="2"
             width="300px"
