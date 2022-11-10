@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/argra-foto1-portfolio/static/css/main.d310ba42.css",
-    "main.js": "/argra-foto1-portfolio/static/js/main.aa9433f7.js",
-    "static/media/fondo.jpg": "/argra-foto1-portfolio/static/media/fondo.d51cce52e5595dfa79fe.jpg",
+    "main.css": "/argra-foto1-portfolio/static/css/main.d24e7abb.css",
+    "main.js": "/argra-foto1-portfolio/static/js/main.dca29b06.js",
+    "static/media/fondobn.jpg": "/argra-foto1-portfolio/static/media/fondobn.e34595b03f585ab68dd5.jpg",
+    "static/media/logoargra1.png": "/argra-foto1-portfolio/static/media/logoargra1.716da0e93e6da1deb0dc.png",
+    "static/media/logoargra2.jpg": "/argra-foto1-portfolio/static/media/logoargra2.6b1d37ca22c6bd910784.jpg",
     "index.html": "/argra-foto1-portfolio/index.html",
-    "main.d310ba42.css.map": "/argra-foto1-portfolio/static/css/main.d310ba42.css.map",
-    "main.aa9433f7.js.map": "/argra-foto1-portfolio/static/js/main.aa9433f7.js.map"
+    "main.d24e7abb.css.map": "/argra-foto1-portfolio/static/css/main.d24e7abb.css.map",
+    "main.dca29b06.js.map": "/argra-foto1-portfolio/static/js/main.dca29b06.js.map"
   },
   "entrypoints": [
-    "static/css/main.d310ba42.css",
-    "static/js/main.aa9433f7.js"
+    "static/css/main.d24e7abb.css",
+    "static/js/main.dca29b06.js"
   ]
 }
