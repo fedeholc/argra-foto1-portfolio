@@ -7,7 +7,7 @@ const Fotorreportaje = () => {
       <div className="wrap-all-component">
         <NavBar />
         <div className="wrap-center">
-          <h2>Fotorreportaje - en construcción</h2>
+          <h2><br/>Fotorreportaje - en construcción</h2>
         </div>
         <Footer />
       </div>

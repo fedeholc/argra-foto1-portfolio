@@ -1,22 +1,20 @@
 import "./App.css";
-import NavBar from "./navbar";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-
 const FooterHome = () => {
   return (
-    <div id="footer-wrapper2">
+    <div id="home-footer-wrapper">
       <img
         height="60px"
         alt="logo argra"
         src="https://images4.imagebam.com/d5/6a/56/MEGJFU6_o.png"
       ></img>
-      <ul className="footer2">
+      <ul id="home-footer-text">
         <li>Fotoperiodismo I - Martín Acosta</li>
 
         <li>Comisión: lunes de 19-22hs</li>
-        <li className="pt2">
+        <li id="home-footer-end-text">
           <strong>2022 - Federico Holc</strong>
         </li>
       </ul>
@@ -27,27 +25,27 @@ const FooterHome = () => {
 const Home = () => {
   return (
     <>
-      <div id="contport2">
-        <div className="contport">
+      <div id="container-encabezado">
+        <div id="container-titulo">
           <div className="tituloportfolio">FEDERICO HOLC</div>
           <div className="tituloportfolio2">FOTOGRAFÍA</div>
         </div>
       </div>
 
-      <div className="div-flex-centrado tp">
-        <h2 className="t" id="t1">
+      <div className="div-flex-centrado">
+        <h2 className="home-menu-item" id="home-menu-item1">
           <Link to="../Trabajos">Trabajos prácticos</Link>
         </h2>
-        <h2 className="t" id="t2">
+        <h2 className="home-menu-item" id="home-menu-item2">
           <Link to="../Fotorreportaje">Fotorreportaje</Link>
         </h2>
-        <h2 className="t" id="t3">
+        <h2 className="home-menu-item" id="home-menu-item3">
           <Link to="../Archivo">Archivo</Link>
         </h2>
-        <h2 className="t" id="t4">
+        <h2 className="home-menu-item" id="home-menu-item4">
           <Link to="../SobreMi">Sobre mi</Link>
         </h2>
-        <h2 className="t" id="t5">
+        <h2 className="home-menu-item" id="home-menu-item5">
           <Link to="../Contacto">Contacto</Link>
         </h2>
       </div>
@@ -56,8 +54,8 @@ const Home = () => {
 };
 
 function App() {
-  
- /*  useEffect(() => {
+  // ! esto era para hacer que el fondo cambie solo, ver si lo dejo o no.
+  /*  useEffect(() => {
     const interval = setInterval(() => {
       console.log("This will run every second!");
 
@@ -70,8 +68,6 @@ function App() {
 
   return (
     <div className="appbg">
-     {/*  <NavBar /> */}
-
       <Home />
       <FooterHome />
     </div>
