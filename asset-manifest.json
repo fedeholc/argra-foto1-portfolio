@@ -1,16 +1,38 @@
 {
   "files": {
     "main.css": "/argra-foto1-portfolio/static/css/main.d24e7abb.css",
-    "main.js": "/argra-foto1-portfolio/static/js/main.dca29b06.js",
+    "main.js": "/argra-foto1-portfolio/static/js/main.7cac9128.js",
     "static/media/fondobn.jpg": "/argra-foto1-portfolio/static/media/fondobn.e34595b03f585ab68dd5.jpg",
+    "static/media/FH_08897 v3.jpg": "/argra-foto1-portfolio/static/media/FH_08897 v3.9bfbafc248a329b2207f.jpg",
+    "static/media/tpilustracion.jpg": "/argra-foto1-portfolio/static/media/tpilustracion.fe25bc4779b9ed86c345.jpg",
+    "static/media/FHA08774 v1.jpg": "/argra-foto1-portfolio/static/media/FHA08774 v1.be00f23c0180729a66ee.jpg",
+    "static/media/FHA08495 v9.jpg": "/argra-foto1-portfolio/static/media/FHA08495 v9.9be0c670c742c878f32e.jpg",
+    "static/media/FH_06861 v0.jpg": "/argra-foto1-portfolio/static/media/FH_06861 v0.895be352cafaab586ee8.jpg",
+    "static/media/FH_08365 v1.jpg": "/argra-foto1-portfolio/static/media/FH_08365 v1.2ff4e935721392648abd.jpg",
+    "static/media/FH_02197 v3.jpg": "/argra-foto1-portfolio/static/media/FH_02197 v3.17d7ab3d6e36d981f61d.jpg",
+    "static/media/FH_02172 v4.jpg": "/argra-foto1-portfolio/static/media/FH_02172 v4.aefd702a57aefe67f89f.jpg",
+    "static/media/FH_04970 v2.jpg": "/argra-foto1-portfolio/static/media/FH_04970 v2.e52b2ac83153164fb6f5.jpg",
+    "static/media/FH_07878 v1.jpg": "/argra-foto1-portfolio/static/media/FH_07878 v1.d137f7a57957bfdd5f26.jpg",
+    "static/media/FHA09817 v0.jpg": "/argra-foto1-portfolio/static/media/FHA09817 v0.31a262ca7437ab2d2a39.jpg",
+    "static/media/FH_07803 v2.jpg": "/argra-foto1-portfolio/static/media/FH_07803 v2.92239e12d3a3f110509e.jpg",
+    "static/media/FHA10301 v2.jpg": "/argra-foto1-portfolio/static/media/FHA10301 v2.44bd5659a0dc91457c9e.jpg",
+    "static/media/FH_04597 v2.jpg": "/argra-foto1-portfolio/static/media/FH_04597 v2.da8498e833f1f084285b.jpg",
+    "static/media/FH_06835 v8.jpg": "/argra-foto1-portfolio/static/media/FH_06835 v8.5ffa74dc37b72fd8dafe.jpg",
+    "static/media/FH_08218 v2.jpg": "/argra-foto1-portfolio/static/media/FH_08218 v2.76e132bb4294a452dfae.jpg",
+    "static/media/FH_06550 v6.jpg": "/argra-foto1-portfolio/static/media/FH_06550 v6.1dd49a402c910219a4b1.jpg",
+    "static/media/FHA09675 v0.jpg": "/argra-foto1-portfolio/static/media/FHA09675 v0.5f7c0831f4b6dc0f2ae6.jpg",
+    "static/media/FH_05073 v2.jpg": "/argra-foto1-portfolio/static/media/FH_05073 v2.5f7a347d54f5d42fdf03.jpg",
+    "static/media/R0000076 v2.jpg": "/argra-foto1-portfolio/static/media/R0000076 v2.46a08e5e9aebaa550fab.jpg",
+    "static/media/FH_03201 v3.jpg": "/argra-foto1-portfolio/static/media/FH_03201 v3.d31f2760d31cad65f2c0.jpg",
+    "static/media/FH_02997 v1.jpg": "/argra-foto1-portfolio/static/media/FH_02997 v1.e59d0a1a5769a47e0c64.jpg",
     "static/media/logoargra1.png": "/argra-foto1-portfolio/static/media/logoargra1.716da0e93e6da1deb0dc.png",
     "static/media/logoargra2.jpg": "/argra-foto1-portfolio/static/media/logoargra2.6b1d37ca22c6bd910784.jpg",
     "index.html": "/argra-foto1-portfolio/index.html",
     "main.d24e7abb.css.map": "/argra-foto1-portfolio/static/css/main.d24e7abb.css.map",
-    "main.dca29b06.js.map": "/argra-foto1-portfolio/static/js/main.dca29b06.js.map"
+    "main.7cac9128.js.map": "/argra-foto1-portfolio/static/js/main.7cac9128.js.map"
   },
   "entrypoints": [
     "static/css/main.d24e7abb.css",
-    "static/js/main.dca29b06.js"
+    "static/js/main.7cac9128.js"
   ]
 }
