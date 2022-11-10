@@ -25,7 +25,7 @@ textarea {
   cursor: pointer;
 }
 
-#wrapper-form {
+#form-wrapper {
   margin-top: 2rem;
   font-size: 16px;
   text-align: left;
@@ -46,20 +46,6 @@ textarea {
   background-image: none;
 
   height: 100vh;
-}
-
-.wrap-center {
-  flex: 1;
-}
-
-.wrap-all-component {
-  text-align: center;
-  display: flex;
-  background-color: white;
-    background-image: none;
-  flex-direction: column;
-
-  min-height: 100vh;
 }
 
 #prefooter {

@@ -5,9 +5,10 @@ import "./contactForm.css"
 const SobreMi = () => {
   return (
     <>
-      <div class="wrap-all-component">
+      <div className="wrap-all-component">
         <NavBar />
-        <div class="wrap-center">
+        <div className="wrap-center">
+          <br />
           <h2>Sobre mi - en construcción</h2>
         </div>
         <Footer />

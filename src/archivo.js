@@ -7,9 +7,11 @@ const Archivo = () => {
  
   return (
     <>
-      <div class="bg">
+      <div class="wrap-all-component">
         <NavBar />
-        <h2>Archivo - en construcción</h2>
+        <div class="wrap-center">
+          <h2><br/>Archivo - en construcción</h2>
+        </div>
         <Footer />
       </div>
     </>

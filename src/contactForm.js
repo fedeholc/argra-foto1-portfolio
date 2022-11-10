@@ -6,9 +6,9 @@ import "./contactForm.css";
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/014b69d0-5c97-11ed-b82c-5d75eaa7ccff"; // TODO - fill on the later step
 
-const M1 = "holc@"
-const M = "federico."+ M1 +"gmail.com";
-const MT = "mailto:"+M;
+const M1 = "holc@";
+const M = "federico." + M1 + "gmail.com";
+const MT = "mailto:" + M;
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = () => {
@@ -29,17 +29,16 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="bg bd">
+      <div className="wrap-all-component">
         <NavBar />
-        <div className="div-flex-centrado wp">
-          <div id="wrapper-form">
-            <div className="div-flex-centrado">
-              <div id="form-mensaje">
-                Hola,
-                <br /> mandame un mail a <a href={MT}>{M}</a>
-                .<br /> O escribime acá:
-              </div>
+        <div className="div-flex-centrado wrap-center">
+          <div id="form-wrapper">
+            <div id="form-mensaje">
+              Hola,
+              <br /> Mandame un mail a <a href={MT}>{M}</a>
+              .<br /> O escribime por acá:
             </div>
+
             <form
               id="formulario-contacto"
               action={FORM_ENDPOINT}

@@ -4,9 +4,11 @@ import Footer from "./footer";
 const Fotorreportaje = () => {
   return (
     <>
-      <div class="bg">
+      <div className="wrap-all-component">
         <NavBar />
-        <h2>Fotorreportaje - en construcción</h2>
+        <div className="wrap-center">
+          <h2>Fotorreportaje - en construcción</h2>
+        </div>
         <Footer />
       </div>
     </>
