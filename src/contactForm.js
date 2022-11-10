@@ -32,7 +32,7 @@ const ContactForm = () => {
       <div className="bg bd">
         <NavBar />
         <div className="div-flex-centrado wp">
-          <div id="wrapper">
+          <div id="wrapper-form">
             <div className="div-flex-centrado">
               <div id="form-mensaje">
                 Hola,
