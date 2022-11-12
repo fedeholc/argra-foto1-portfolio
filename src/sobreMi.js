@@ -14,23 +14,23 @@ const SobreMi = () => {
           </div>
           <div id="hola">Hola =)</div>
           <img
-            border="2"
-            width="300px"
+            width="200px"
             alt="autorretrato"
             src="https://images4.imagebam.com/29/f2/93/MEGOBN6_o.jpg"
           />
 
           <br />
           <br />
-          <div>
+          <div id="bio">
             Mi biografía no es relevante,
             <br />
             si querés algo para leer,
             <br /> mejor te dejo algunas poesías:
           </div>
           <br />
-          <br />
-          <br />
+          
+        
+          <div className="separador">***</div>
 
           <div className="container-encabezado-poesia">
             <div className="container-titulo-poesia">
