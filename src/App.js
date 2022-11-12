@@ -1,8 +1,7 @@
 import "./App.css";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
+   
 
 const FooterHome = () => {
   return (
@@ -64,22 +63,13 @@ function App() {
     }, 1000);
     return () => clearInterval(interval);
   }, []); */
-const [toggler, setToggler] = useState(false);
+ 
 
   return (
     <div className="appbg">
       <Home />
       <FooterHome />
-
-      <button onClick={() => setToggler(!toggler)}>Toggle Lightbox</button>
-      <FsLightbox
-        toggler={toggler}
-        sources={[
-          "https://i.imgur.com/fsyrScY.jpg",
-          "https://www.youtube.com/watch?v=xshEZzpS4CQ",
-          "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        ]}
-      />
+ 
     </div>
   );
 }
