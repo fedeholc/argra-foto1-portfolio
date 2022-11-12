@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/argra-foto1-portfolio/static/css/main.e67484ab.css",
-    "main.js": "/argra-foto1-portfolio/static/js/main.29cfac92.js",
+    "main.js": "/argra-foto1-portfolio/static/js/main.4a76aeba.js",
     "static/media/fondobn.jpg": "/argra-foto1-portfolio/static/media/fondobn.e34595b03f585ab68dd5.jpg",
     "static/media/FH_08897 v3.jpg": "/argra-foto1-portfolio/static/media/FH_08897 v3.9bfbafc248a329b2207f.jpg",
     "static/media/tpilustracion.jpg": "/argra-foto1-portfolio/static/media/tpilustracion.fe25bc4779b9ed86c345.jpg",
@@ -30,10 +30,10 @@
     "index.html": "/argra-foto1-portfolio/index.html",
     "static/media/fullscreen.svg": "/argra-foto1-portfolio/static/media/fullscreen.be0015822a90529449c8a72ffc645445.svg",
     "main.e67484ab.css.map": "/argra-foto1-portfolio/static/css/main.e67484ab.css.map",
-    "main.29cfac92.js.map": "/argra-foto1-portfolio/static/js/main.29cfac92.js.map"
+    "main.4a76aeba.js.map": "/argra-foto1-portfolio/static/js/main.4a76aeba.js.map"
   },
   "entrypoints": [
     "static/css/main.e67484ab.css",
-    "static/js/main.29cfac92.js"
+    "static/js/main.4a76aeba.js"
   ]
 }
