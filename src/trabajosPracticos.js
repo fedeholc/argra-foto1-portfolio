@@ -3,7 +3,9 @@ import Footer from "./footer";
 import FotoConEpigrafe from "./fotoConEpigrafe";
 import "./trabajosPracticos.css";
 import "./contactForm.css";
-
+import React, { useState } from "react";
+import FsLightbox from "fslightbox-react";
+import fsicon from "./imagenes/fullscreen.svg"; 
 //! para las imagenes conviene hacer lo que dice acá del import primero: https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react
 
 const urlsFotosTP = [
@@ -169,44 +171,33 @@ const TrabajosPracticos = () => {
     },
   ];
 
+  const [toggler, setToggler] = useState(false);
+
   return (
     <>
       <div className="bg">
         <NavBar />
         <div className="div-flex-izquierda">
           <h1 className="seccion-titulo">Trabajos Prácticos</h1>
+          <div id="boton-galeria-container">
+            <button
+              id="boton-galeria"
+              onClick={() => setToggler(!toggler)}
+            >
+              Ver como galería
+            </button>
+            <img height="20" alt="full screen" src={fsicon} />
+          </div>
         </div>
+
+        <FsLightbox toggler={toggler} sources={urlsFotosTP} />
 
         {fotosTP.map((e) => {
           return (
             <FotoConEpigrafe key={e.id} src={e.url} epigrafe={e.epigrafe} />
           );
         })}
-        {/* 
 
-        <FotoConEpigrafe src={fotosTP[0].url} epigrafe={fotosTP[0].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} />
-        <FotoConEpigrafe src={fotosTP[1].url} epigrafe={fotosTP[1].epigrafe} /> */}
         <Footer />
       </div>
     </>

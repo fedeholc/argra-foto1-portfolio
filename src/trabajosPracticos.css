@@ -2,4 +2,24 @@
   margin-top: 1rem;
   
 }
- 
+   
+#boton-galeria-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+#boton-galeria-container:hover {
+  cursor: pointer;
+}
+
+#boton-galeria {
+  border: 0;
+  margin-right: 0.5rem;
+  background-color: white;
+  font-weight: bold;
+}
+#boton-galeria:hover {
+  cursor: pointer;
+}
