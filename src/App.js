@@ -1,13 +1,15 @@
 import "./App.css";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-   
 
 const FooterHome = () => {
   return (
     <div id="home-footer-wrapper">
-      <img height="60px" alt="logo argra" 
-      src={require("./imagenes/logoargra1.png")}></img>
+      <img
+        height="60px"
+        alt="logo argra"
+        src={require("./imagenes/logoargra1.png")}
+      ></img>
       <ul id="home-footer-text">
         <li>Fotoperiodismo I - Martín Acosta</li>
 
@@ -63,13 +65,11 @@ function App() {
     }, 1000);
     return () => clearInterval(interval);
   }, []); */
- 
 
   return (
     <div className="appbg">
       <Home />
       <FooterHome />
- 
     </div>
   );
 }
