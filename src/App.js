@@ -39,13 +39,11 @@ const Home = () => {
         <h2 className="home-menu-item" id="home-menu-item2">
           <Link to="../Fotorreportaje">Fotorreportaje</Link>
         </h2>
+
         <h2 className="home-menu-item" id="home-menu-item3">
-          <Link to="../Archivo">Archivo</Link>
-        </h2>
-        <h2 className="home-menu-item" id="home-menu-item4">
           <Link to="../SobreMi">Sobre mi</Link>
         </h2>
-        <h2 className="home-menu-item" id="home-menu-item5">
+        <h2 className="home-menu-item" id="home-menu-item4">
           <Link to="../Contacto">Contacto</Link>
         </h2>
       </div>

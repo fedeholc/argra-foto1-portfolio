@@ -22,12 +22,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     /* loader: homeLoader, */
   },
-  {
-    path: "Archivo/",
-    element: <Archivo />,
-    errorElement: <ErrorPage />,
-    /* loader: postLoader, */
-  },
+   
   {
     path: "Contacto/",
     element: <ContactForm />,

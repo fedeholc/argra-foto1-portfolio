@@ -203,9 +203,6 @@ body {
   top: 60vh;
 }
 
-#home-menu-item5 {
-  top: 70vh;
-}
 
 
 /* * esto es para el menu del Home */
@@ -219,6 +216,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.8rem;
   margin-top: -0.5rem;
+  background-color: black;
 
 }
 
