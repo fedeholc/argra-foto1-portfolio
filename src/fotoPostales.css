@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.foto-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 0rem;
+}
+
+.foto-portfolio {
+  width: auto;
+  height: auto;
+  max-width: 90vw;
+  max-height: 80vh;
+  /* border: 1px solid black; */
+
+}
+ 
+ 

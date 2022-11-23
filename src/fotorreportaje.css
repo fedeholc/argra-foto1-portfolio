@@ -1,0 +1,51 @@
+.seccion-titulo {
+  margin-top: 1rem;
+
+}
+
+#boton-galeria-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+#boton-galeria-container:hover {
+  cursor: pointer;
+}
+
+#boton-galeria {
+  border: 0;
+  margin-right: 0.5rem;
+  background-color: white;
+  font-weight: bold;
+}
+
+#boton-galeria:hover {
+  cursor: pointer;
+}
+
+li:nth-child(even) img {
+  margin-bottom: 5rem;
+
+}
+
+ul,
+#andando-referencias {
+  background-color: white;
+  list-style: none;
+}
+#andando-referencias {
+  padding-left: 2rem;
+}
+
+#andando-titulo {
+  margin-bottom: 2rem;
+}
+
+#andando-pie {
+  background-color: white;
+  margin: auto;
+  padding: 2rem;
+}

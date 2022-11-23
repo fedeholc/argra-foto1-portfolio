@@ -7,6 +7,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import fsicon from "./imagenes/fullscreen.svg";
 //! para las imagenes conviene hacer lo que dice acá del import primero: https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react
+//! ver si es mejor usar import o requiere
 
 const urlsFotosTP = [
   require("./imagenes/FHA08495 v9.jpg"),
